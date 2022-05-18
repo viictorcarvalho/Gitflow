@@ -42,7 +42,6 @@ class ListaCompras {
 
             if (input.isEmpty() || input.isBlank()) {
                 throw UnsupportedOperationException("Não é permitido inserir valor vazio")
-                informarQuantidadeLegumeOutros(alimento)
             }
 
             var qtd = 0.0
